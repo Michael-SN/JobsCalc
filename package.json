@@ -1,0 +1,28 @@
+{
+  "name": "jobsCalc",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">   <img alt=\"JobsCalc\" title=\"JobsCalc\" src=\"https://i.imgur.com/Veqm7Gh.png\" width=\"220px\" /> </h1>",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-SN/JobsCalc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michael-SN/JobsCalc/issues"
+  },
+  "homepage": "https://github.com/Michael-SN/JobsCalc#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
