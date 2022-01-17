@@ -9,8 +9,11 @@ server.set('view engine', 'ejs')
 // using middleware - enable static files
 server.use(express.static('public'))
 
+// enable req.body
+server.use(express.urlencoded())
+
 // routes
 server.use(routes)
 
 // enable server
-server.listen(3000, () => console.log('started...'))
+server.listen(5000, () => console.log('started...'))
