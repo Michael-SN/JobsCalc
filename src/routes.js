@@ -3,9 +3,10 @@ const res = require('express/lib/response')
 const routes = express.Router()
 const ProfileController = require('./controllers/ProfileController')
 const JobController = require('./controllers/JobController')
+const DashboardController = require('./controllers/DashboardController')
 
 //request, response
-routes.get('/', JobController.index)
+routes.get('/', DashboardController.index)
 
 routes.get('/job', JobController.create)
 
