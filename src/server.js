@@ -20,4 +20,4 @@ server.use(express.urlencoded({ extended: true }))
 server.use(routes)
 
 // enable server
-server.listen(5000, () => console.log('started...'))
+server.listen(3000, () => console.log('started...'))
