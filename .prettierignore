@@ -1,0 +1,6 @@
+{ 
+  prettier.trailingComma: false,
+  "[html]": {
+    "editor.formatOnSave": false
+  }
+}
